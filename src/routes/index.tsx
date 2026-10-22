@@ -6,13 +6,12 @@ import { weddingData, eventDate, eventTime, eventTimestamp, directionsUrl, calen
 import dawn from '@/assets/lotus-dawn-hero.jpg';
 import door from '@/assets/thoranam-door.jpg';
 import lotus from '@/assets/lotus-petal.png';
-import engagement from '@/assets/engagement.jpg';
 import bangles from '@/assets/bangles.jpg';
 import muhurtham from '@/assets/muhurtham.jpg';
 import receptionStage from '@/assets/reception-stage.jpg';
 import pond from '@/assets/final-pond.jpg';
 
-const eventImages: Record<WeddingEvent['id'], string> = { engagement, bangleCeremony: bangles, muhurtham, reception: receptionStage };
+const eventImages: Record<WeddingEvent['id'], string> = { bangleCeremony: bangles, muhurtham, reception: receptionStage };
 
 const { bride, groom } = weddingData;
 

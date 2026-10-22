@@ -1,5 +1,5 @@
 export type WeddingEvent = {
-  id: 'engagement' | 'bangleCeremony' | 'muhurtham' | 'reception';
+  id: 'bangleCeremony' | 'muhurtham' | 'reception';
   number: string;
   name: string;
   subtitle: string;
@@ -19,10 +19,9 @@ export const weddingData = {
   tamilTitle: 'ஒரு புதிய தொடக்கம்',
   timezone: 'Asia/Kolkata',
   events: [
-    { id: 'engagement', number: '01', name: 'Engagement', subtitle: 'A Promise Begins', date: '2026-10-21', start: '18:30', end: '21:00', venue: 'Sri Vishnu Park', address: 'Kengal Hanumanthaiah Road, Shanti Nagar, Bengaluru, Karnataka', location: 'Bengaluru, Karnataka', directionsUrl: 'https://maps.app.goo.gl/e4Eg4oVnHeZ9PBTy6' },
-    { id: 'bangleCeremony', number: '02', name: 'Bangle Ceremony', subtitle: 'Colours of Celebration', date: '2026-11-13', start: '10:00', end: '12:00', venue: "At Bride's House", address: 'BTM 1st Stage, Bangalore', location: 'Bangalore, Karnataka', directionsUrl: 'https://maps.app.goo.gl/bx6TTd4iFnGp51B97' },
-    { id: 'muhurtham', number: '03', name: 'Muhurtham', subtitle: 'The Sacred Beginning', date: '2026-11-15', start: '04:00', end: '06:00', venue: 'Veerabadra Swamy Devasthanam', address: 'Narasingapuram Street, Gugai, Salem, Tamil Nadu', location: 'Salem, Tamil Nadu', directionsUrl: 'https://maps.app.goo.gl/9giHBQXa9QtdnL9p8' },
-    { id: 'reception', number: '04', name: 'Reception', subtitle: 'An Evening to Remember', date: '2026-11-16', start: '19:00', end: '21:30', venue: 'Theerthamalai Goundar Thirumana Maaligai', address: 'Karuppur Main Road, Vellakalpatti, Karuppur, Tamil Nadu 636012', location: 'Salem, Tamil Nadu', directionsUrl: 'https://maps.app.goo.gl/sUPqjrzfD1ZWpAgAA' },
+    { id: 'bangleCeremony', number: '01', name: 'Bangle Ceremony', subtitle: 'Colours of Celebration', date: '2026-11-13', start: '10:00', end: '12:00', venue: "At Bride's House", address: 'BTM 1st Stage, Bangalore', location: 'Bangalore, Karnataka', directionsUrl: 'https://maps.app.goo.gl/bx6TTd4iFnGp51B97' },
+    { id: 'muhurtham', number: '02', name: 'Muhurtham', subtitle: 'The Sacred Beginning', date: '2026-11-15', start: '04:00', end: '06:00', venue: 'Veerabadra Swamy Devasthanam', address: 'Narasingapuram Street, Gugai, Salem, Tamil Nadu', location: 'Salem, Tamil Nadu', directionsUrl: 'https://maps.app.goo.gl/9giHBQXa9QtdnL9p8' },
+    { id: 'reception', number: '03', name: 'Reception', subtitle: 'An Evening to Remember', date: '2026-11-16', start: '19:00', end: '21:30', venue: 'Theerthamalai Goundar Thirumana Maaligai', address: 'Karuppur Main Road, Vellakalpatti, Karuppur, Tamil Nadu 636012', location: 'Salem, Tamil Nadu', directionsUrl: 'https://maps.app.goo.gl/sUPqjrzfD1ZWpAgAA' },
   ] satisfies WeddingEvent[],
 };
 
